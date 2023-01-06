@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Popings:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rebeccapurple;
+  font-family: 'Popings', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container-toasts {
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.toast {
+  background-color: #fff;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: #fff;
+  color: rebeccapurple;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 18px;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
