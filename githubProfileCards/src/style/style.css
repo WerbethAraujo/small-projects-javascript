@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2a72;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.search-form {
+  width: 100%;
+  max-width: 800px;
+}
+
+.search-form .search-user {
+  background-color: #4c2885;
+  color: #fff;
+  width: 100%;
+  display: block;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.search-form .search-user:focus {
+  outline: none;
+}
+
+.search-form .search-user::placeholder {
+  color: #bbb;
+}
+
+.card-user {
+  display: flex;
+  background-color: #4c2885;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 20px;
+  padding: 3rem;
+  margin: 0 1.5rem;
+  box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
+    0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-user .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #2a2a72;
+}
+
+.card-user .user-info {
+  color: #eee;
+  margin-left: 2rem;
+}
+
+.card-user .user-info h2 {
+  margin-top: 0;
+}
+
+.card-user .user-info ul {
+  display: flex;
+  max-width: 400px;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.card-user .user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.card-user .user-info ul li strong {
+  font-size: 0.9rem;
+}
+
+.repo {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #212a72;
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+@media (max-width: 500px) {
+  .search-form {
+    max-width: 400px;
+  }
+  .card-user {
+    flex-direction: column;
+    align-items: center;
+  }
+}
