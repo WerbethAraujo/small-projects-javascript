@@ -30,3 +30,27 @@ A busca na API, foi feita utilizando Axios.
 Escolha as configurações para a sua senha, com letras maiúsculas e minúsculas, símbolos e números e gere uma senha forte!!Da pra copiar e usar onde quiser.
 
 ![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/passwordGenerate.png)
+
+## Pokedex Cards
+
+Projeto utlizando a API do Pokemon, os dados do pokemon são renderizados na tela em Cards, para buscar os dados foi utilizado a fetch API.
+
+![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/pokedexCards.png)
+
+## Task List
+
+Lista de tarefas, permite adicionar remover e marcar como feita a task, tambem foi utilizado o LocalStorage para armazenar as tasks.
+
+![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/taskList.png)
+
+## Theme Clock
+
+Relógio Digital
+
+![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/themeClock.png)
+
+## Toast Notication
+
+Toasts são usados para mostrar notificações pro usúario, no caso do app pode ser de sucesso, de error e dafault.
+
+![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/toastNotification.png)
