@@ -57,9 +57,9 @@ function createCardUser(user) {
         </p>
 
         <ul>
-        <li><strong>${followers} </strong> Followers</li>
-        <li><strong>${following}</strong> Following</li>
-        <li><strong>${public_repos}</strong> Repos</li>
+        <li>Followers<strong>-${followers}</strong></li>
+        <li>Following<strong>-${following}</strong></li>
+        <li>Repos<strong>-${public_repos}</strong></li>
         </ul>
 
     <div class="repos">
