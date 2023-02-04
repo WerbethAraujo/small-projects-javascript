@@ -18,6 +18,12 @@ Boxes 3D feitos com html, css e javascrip, o gif pode ser visto inteiro ou divid
 
 ![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/backBoxes.png)
 
+## Insect Catch Game
+
+Joguimho que trabalha bem a manipuaçção da DOM, inserindo e removendo insetos da tela, e uma msg no final. você pode ate escolher o seu inseto preferido rs.
+
+![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/catchInsectGame.png)
+
 ## Github Profile
 
 Projeto utizando a API do github, ao buscar um usuário pelo nome vai ser exibido um card com o nome, foto do prefil, bio e outras informações, e também os ultimos repositórios.
