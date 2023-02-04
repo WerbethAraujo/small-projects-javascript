@@ -20,7 +20,7 @@ Boxes 3D feitos com html, css e javascrip, o gif pode ser visto inteiro ou divid
 
 ## Insect Catch Game
 
-Joguimho que trabalha bem a manipuaçção da DOM, inserindo e removendo insetos da tela, e uma msg no final. você pode ate escolher o seu inseto preferido rs.
+Joguinho que trabalha bem a manipuaçção da DOM, inserindo e removendo insetos da tela, e uma msg no final. você pode ate escolher o seu inseto preferido rs.
 
 ![](https://raw.githubusercontent.com/WerbethAraujo/small-projects-javascript/main/imgsOfProjects/catchInsectGame.png)
 
